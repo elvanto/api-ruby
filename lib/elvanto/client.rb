@@ -2,7 +2,7 @@ require 'logger'
 require 'uri'
 require 'faraday'
 require 'faraday_middleware'
-require 'elvanto/response/elvanto_exception_middleware'
+require_relative 'response/elvanto_exception_middleware'
 
 module ElvantoAPI
   class Client
