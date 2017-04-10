@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    elvanto-api (1.0.1)
+    elvanto-api (1.0.2)
       addressable (~> 2.3.5)
       faraday (>= 0.8.6, <= 0.9.0)
       faraday_middleware (~> 0.9.0)
@@ -29,3 +29,6 @@ DEPENDENCIES
   faraday_middleware
   json
   rake (~> 10.0)
+
+BUNDLED WITH
+   1.14.6
