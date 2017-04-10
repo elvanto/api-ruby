@@ -1,5 +1,5 @@
 require 'faraday'
-require_relative 'elvanto/error'
+require_relative '../error'
 
 # @api private
 module Faraday
